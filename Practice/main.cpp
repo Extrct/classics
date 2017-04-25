@@ -5,6 +5,7 @@
 #include "bst.h"
 #include "list.h"
 #include "dlist.h"
+#include "utility.h"
 
 int main(int argc, const char * argv[]) {
 //    SinglyLinkedList nlist;
@@ -191,5 +192,17 @@ int main(int argc, const char * argv[]) {
 //    }
 //    rbt.print();
     
+    int p,q;
+    std::cout << "p: ";
+    std::cin >> p;
+    std::cout << "q: ";
+    std::cin >> q;
+//    std::cout << "result: " << powRecursive(p,q) << std::endl;
+    std::cout << "result: " << powerOf(p,q) << std::endl;
+//    std::cout << "result: " << mult(p,q) << std::endl;
+//    std::cout << "result: " << add(p,q) << std::endl;
+//    std::cout << "result: " << sub(p,q) << std::endl;
+
+
     return 0;
 }

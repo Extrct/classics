@@ -29,6 +29,7 @@
 		6688A2A61C021B0D00EECF75 /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
 		6688A2A71C024A6F00EECF75 /* bst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bst.h; sourceTree = "<group>"; };
 		668C87411D29F27B006DDC7D /* rbt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbt.h; sourceTree = "<group>"; };
+		66C400831EAA29990003AE51 /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
 		66D7C1971D21B10600189D72 /* avl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +69,7 @@
 				6688A2A71C024A6F00EECF75 /* bst.h */,
 				6688A2A61C021B0D00EECF75 /* list.h */,
 				662829701D09E889007C3A77 /* dlist.h */,
+				66C400831EAA29990003AE51 /* utility.h */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
