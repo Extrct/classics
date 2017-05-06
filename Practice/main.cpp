@@ -192,16 +192,19 @@ int main(int argc, const char * argv[]) {
 //    }
 //    rbt.print();
     
+//    std::cout<< binaryEqualsHex("110101101","0x1AD");
+    
     int p,q;
     std::cout << "p: ";
     std::cin >> p;
     std::cout << "q: ";
     std::cin >> q;
-//    std::cout << "result: " << powRecursive(p,q) << std::endl;
-    std::cout << "result: " << powerOf(p,q) << std::endl;
-//    std::cout << "result: " << mult(p,q) << std::endl;
-//    std::cout << "result: " << add(p,q) << std::endl;
-//    std::cout << "result: " << sub(p,q) << std::endl;
+    
+    std::cout << "powRecursive: " << powRecursive(p,q) << std::endl;
+    std::cout << "powerOf: " << powerOf(p,q) << std::endl;
+    std::cout << "mult: " << mult(p,q) << std::endl;
+    std::cout << "add: " << add(p,q) << std::endl;
+    std::cout << "sub: " << sub(p,q) << std::endl;
 
 
     return 0;
