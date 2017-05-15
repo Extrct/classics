@@ -5,6 +5,8 @@
 #ifndef utility_h
 #define utility_h
 
+
+
 //returns p^q in less than O(q)
 long powerOf(int p, int q){
     long result = 1;
