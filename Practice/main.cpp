@@ -195,26 +195,27 @@ int main(int argc, const char * argv[]) {
     
 //    std::cout<< binaryEqualsHex("110101101","0x1AD");
     
-//    int p,q;
-//    std::cout << "p: ";
-//    std::cin >> p;
-//    std::cout << "q: ";
-//    std::cin >> q;
-//    
+    int p,q;
+    std::cout << "p: ";
+    std::cin >> p;
+    std::cout << "q: ";
+    std::cin >> q;
+    
 //    std::cout << "powRecursive: " << powRecursive(p,q) << std::endl;
 //    std::cout << "powerOf: " << powerOf(p,q) << std::endl;
 //    std::cout << "mult: " << mult(p,q) << std::endl;
+    std::cout << "multQuick: " << multQuick(p,q) << std::endl;
 //    std::cout << "add: " << add(p,q) << std::endl;
 //    std::cout << "sub: " << sub(p,q) << std::endl;
     
-    std::vector<int> list;
-    for(int i = 0; i < 10; ++i){
-        list.push_back(rand() % 100);
-    }
-    
-    printVector(list);
-    insertionSort(list);
-    printVector(list);
+//    std::vector<int> list;
+//    for(int i = 0; i < 10; ++i){
+//        list.push_back(rand() % 100);
+//    }
+//    
+//    printVector(list);
+//    insertionSort(list);
+//    printVector(list);
 
     return 0;
 }

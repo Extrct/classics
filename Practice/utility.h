@@ -47,6 +47,20 @@ bool binaryEqualsHex(std::string binary, std::string hexidecimal){
     return bin == hex;
 }
 
+long multQuick(int p, int q){
+//    courtesy of Stack
+//    p = m + n
+//    q = m - n
+//    ...
+//    m = (p+q)/2
+//    n = (p-q)/2
+//    ...
+//    p * q = (m+n)*(m-n) = m² - n²
+//    ...
+//    p * q = ((p+q)² - (p-q)²)/4
+    return (powerOf(p + q, 2) - powerOf(p - q, 2)) >> 2;
+}
+
 long mult(int p, int q){
     int sign = 1;
     if(p < 0 ^ q < 0){
