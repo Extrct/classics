@@ -194,7 +194,6 @@ int main(int argc, const char * argv[]) {
 //    rbt.print();
     
 //    std::cout<< binaryEqualsHex("110101101","0x1AD");
-    
     int p,q;
     std::cout << "p: ";
     std::cin >> p;
@@ -204,7 +203,7 @@ int main(int argc, const char * argv[]) {
 //    std::cout << "powRecursive: " << powRecursive(p,q) << std::endl;
 //    std::cout << "powerOf: " << powerOf(p,q) << std::endl;
 //    std::cout << "mult: " << mult(p,q) << std::endl;
-    std::cout << "multQuick: " << multQuick(p,q) << std::endl;
+//    std::cout << "multQuick: " << multQuick(p,q) << std::endl;
 //    std::cout << "add: " << add(p,q) << std::endl;
 //    std::cout << "sub: " << sub(p,q) << std::endl;
     

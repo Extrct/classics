@@ -5,7 +5,19 @@
 #ifndef utility_h
 #define utility_h
 
-
+void fizzBuzz(){
+    for(int i = 1; i <= 100; ++i){
+        std::string result = "";
+        if(!(i % 3)){
+            result.append("fizz");
+        }
+        if(!(i % 5)){
+            result.append("buzz");
+        }
+        result = (result!="" ? result : std::to_string(i));
+        std::cout << result << std::endl;
+    }
+}
 
 //returns p^q in less than O(q)
 long powerOf(int p, int q){
